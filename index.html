@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Hra</title>
-  </head>
-  <body>
-    <h1>Kámen - nůžky - papír</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Hra</title>
+</head>
+
+<body>
+  <h1>Kámen - nůžky - papír - tapír - spock</h1>
+  <div class="container">
     <table class="center">
       <tr>
         <td><img id="obr1" src="outcomes/0.png" alt=""></td>
         <td><img id="obr2" src="outcomes/1.png" alt=""></td>
       </tr>
+
       <tr>
-        <td id="vitez1">Hráč 1</td>
+        <td id="vitez1" >Hráč 1</td>
         <td id="vitez2">Hráč 2</td>
       </tr>
       <tr>
-        <td colspan="2"><button onclick="hra()">HRAJ</button></td>
+        <td colspan="2"><button onclick="hra()">Hraj náhodně</button></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button id="druheTlacitko" type="button" >Změnit režim</button></td>
       </tr>
     </table>
-    <script src="script.js"></script>
-  </body>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
